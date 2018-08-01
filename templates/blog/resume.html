@@ -1,0 +1,230 @@
+{% extends 'base.html' %} {% load staticfiles %}
+
+{% block toc %}
+    <!-- 右侧 -->
+    <div class="panel panel-default">
+        <div class="panel-heading">个人信息</div>
+        <div class="panel-body">
+            <img src="{% static 'blog/img/myi.jpg' %}" class="center-block" alt="Me" style="width: 100px">
+
+            <address>
+                <p>姓名:王聪</p>
+                <p>网名:跬步郎 smallstepser</p>
+                <span class="glyphicon glyphicon-home" title="Address"><kbd>辽宁省沈阳市</kbd></span><br>
+                <span class="glyphicon glyphicon-envelope" title="Email"><code>smallstepser@qq.com</code></span>
+            </address>
+        </div>
+    </div>
+
+{% endblock toc %}
+{% block main %}
+    <!-- 左侧 -->
+    <div class="jumbotron">
+        <p class="text-left small">
+            信息系统项目管理师、注册造价工程师、网络工程师。经济学硕士。
+            爱好计算机网络及编程，Python、PHP、Java都有所涉猎。擅长项目管理及网络规划。
+            致力于Python全栈工程师的培养及青少年编程学习课程的制定和研究。
+        </p>
+    </div>
+
+    <div class="panel-group" id="accoradion">
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <p>工作经历</p>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">
+                            <div class="row">
+                                <div class="col-sm-4">1999-2001</div>
+                                <div class="col-sm-4">建设银行</div>
+                                <div class="col-sm-4">储蓄</div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item list-group-item-warning">
+                            <div class="row">
+                                <div class="col-sm-4">2002-至今</div>
+                                <div class="col-sm-4">建设厅注册中心</div>
+                                <div class="col-sm-4">网络运维</div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item list-group-item-info">
+                            <div class="row">
+                                <div class="col-sm-4">2011-2013</div>
+                                <div class="col-sm-4">辽宁致远</div>
+                                <div class="col-sm-4">网络规划</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-sm-4">2014-2017</div>
+                                <div class="col-sm-4">沈阳亿迅</div>
+                                <div class="col-sm-4">技术顾问</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <p>教育及认证</p>
+                </div>
+
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">
+                            <div class="row">
+                                <div class="col-sm-4">1999</div>
+                                <div class="col-sm-4">Adobe</div>
+                                <div class="col-sm-4">Adobe认证平面设计师</div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item list-group-item-warning">
+                            <div class="row">
+                                <div class="col-sm-4">2003</div>
+                                <div class="col-sm-4">Sun</div>
+                                <div class="col-sm-4">Java认证</div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item list-group-item-info">
+                            <div class="row">
+                                <div class="col-sm-4">2007</div>
+                                <div class="col-sm-4">东北财经学院</div>
+                                <div class="col-sm-4">经济学硕士学位</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-sm-4">2010</div>
+                                <div class="col-sm-4">国家计算机水平考试</div>
+                                <div class="col-sm-4">网络工程师</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-primary">
+                            <div class="row">
+                                <div class="col-sm-4">2014</div>
+                                <div class="col-sm-4">造价工程师考试</div>
+                                <div class="col-sm-4">注册造价工程师</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-success">
+                            <div class="row">
+                                <div class="col-sm-4">2016</div>
+                                <div class="col-sm-4">国家计算机水平考试</div>
+                                <div class="col-sm-4">信息系统项目管理师</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <p>项目经验</p>
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success">
+                            <div class="row">
+                                <div class="col-sm-3">2007</div>
+                                <div class="col-sm-5">独立开发辽宁省造价工程师上报名系统</div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item list-group-item-warning">
+                            <div class="row">
+                                <div class="col-sm-3">2012</div>
+                                <div class="col-sm-5">联合开发辽宁省二级建造师网上教育系统</div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item list-group-item-info">
+                            <div class="row">
+                                <div class="col-sm-3">2013</div>
+                                <div class="col-sm-5">独立规划并架设辽宁致远办公网络</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-sm-3">2015</div>
+                                <div class="col-sm-5">组织开发口袋应试APP</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-info">
+        <div class="panel panel-heading">个人技能</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="text-muted">项目管理</span>
+                </div>
+                <div class="col-sm-9">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="text-success">Python</span>
+                </div>
+                <div class="col-sm-9">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-success active"
+                             style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="text-info">Django</span>
+                </div>
+                <div class="col-sm-9">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-info active"
+                             style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="text-warning">网络规划</span>
+                </div>
+                <div class="col-sm-9">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-warning active"
+                             style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="text-danger">Bootstrap</span>
+                </div>
+                <div class="col-sm-9">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-danger active"
+                             style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

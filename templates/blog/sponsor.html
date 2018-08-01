@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% load staticfiles %}
+{% block main %}
+    <article class="post">
+        <header class="post-head">
+            <h1 class="post-title">微信支付</h1>
+            <p class="post-content">感谢您对我的支持，我会将毕生所学奉献给大家！</p>
+            <img src="{% static 'blog/img/ssper_weixin.jpg' %}" alt="微信支付收款二维码" style="width: 220px">
+        </header>
+    </article>
+{% endblock main %}
