@@ -22,6 +22,7 @@
     <link href="{% static 'blog/css/magnific-popup.min.css' %}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/css/screen.css' %}">
     <link rel="stylesheet" href="{% static 'blog/css/share_style0_24.css' %}">
+    <!--网站的logo图片，需要加上，不然gunicorn运行后会有错误提示-->
     <link REL="SHORTCUT ICON" HREF="{% static "blog/img/favicon.ico" %}"/>
     <!--[if lt IE 9]>
     <script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -98,7 +99,7 @@
                 <div class="navbar-header">
                         <span class="nav-toggle-button collapsed" data-toggle="collapse" data-target="#main-menu">
                             <span class="sr-only">Toggle navigation</span>
-                            <i class="fa fa-bars"></i>
+                            <i class="glyphicon glyphicon-home"></i>
                         </span>
                 </div>
                 <div class="collapse navbar-collapse" id="main-menu">
